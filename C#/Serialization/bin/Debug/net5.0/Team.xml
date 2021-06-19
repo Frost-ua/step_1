@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Team xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <team_name>
+    <Employee>
+      <id>1</id>
+      <points>
+        <int>3</int>
+        <int>2</int>
+        <int>5</int>
+        <int>2</int>
+        <int>1</int>
+      </points>
+      <Name>Jordy</Name>
+      <SurName>Frost</SurName>
+      <Position>Feature developer</Position>
+      <Salary>7000</Salary>
+      <ContractNumber>RTYE12ERF-25</ContractNumber>
+    </Employee>
+    <Employee>
+      <id>2</id>
+      <points>
+        <int>9</int>
+        <int>2</int>
+        <int>5</int>
+        <int>8</int>
+        <int>4</int>
+      </points>
+      <Name>Alex</Name>
+      <SurName>Frost</SurName>
+      <Position>QA Lead</Position>
+      <Salary>5500</Salary>
+      <ContractNumber>GTUY-2362</ContractNumber>
+    </Employee>
+    <Employee>
+      <id>8</id>
+      <points>
+        <int>5</int>
+        <int>4</int>
+        <int>5</int>
+        <int>3</int>
+        <int>2</int>
+      </points>
+      <Name>Kate</Name>
+      <SurName>Anderson</SurName>
+      <Position>Feature developer</Position>
+      <Salary>6750</Salary>
+      <ContractNumber>FHHFFU-55</ContractNumber>
+    </Employee>
+  </team_name>
+</Team>

@@ -1,0 +1,52 @@
+﻿  Auto.cpp
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Auto.cpp(13,33): warning C4101: 'ex': unreferenced local variable
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Auto.cpp(23,30): warning C4101: 'ex': unreferenced local variable
+  main.cpp
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\FwdList.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Matrix.h(130,23): warning C4018: '<': signed/unsigned mismatch
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Matrix.h(115): message : while compiling class template member function 'Matrix<int>::Matrix(const int &,const int &,const T &)'
+          with
+          [
+              T=int
+          ]
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\main.cpp(324): message : see reference to function template instantiation 'Matrix<int>::Matrix(const int &,const int &,const T &)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\main.cpp(324): message : see reference to class template instantiation 'Matrix<int>' being compiled
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Matrix.h(154,23): warning C4018: '<': signed/unsigned mismatch
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Matrix.h(152): message : while compiling class template member function 'void Matrix<int>::print(void) const'
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\main.cpp(326): message : see reference to function template instantiation 'void Matrix<int>::print(void) const' being compiled
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Matrix.h(156,24): warning C4018: '<': signed/unsigned mismatch
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Matrix.h(215,23): warning C4018: '<': signed/unsigned mismatch
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Matrix.h(214): message : while compiling class template member function 'Matrix<int>::~Matrix(void)'
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\main.cpp(324): message : see reference to function template instantiation 'Matrix<int>::~Matrix(void)' being compiled
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Matrix.h(141,23): warning C4018: '<': signed/unsigned mismatch
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Matrix.h(140): message : while compiling class template member function 'void Matrix<int>::fill(const T &)'
+          with
+          [
+              T=int
+          ]
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Matrix.h(134): message : see reference to function template instantiation 'void Matrix<int>::fill(const T &)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Matrix.h(115): message : while compiling class template member function 'Matrix<int>::Matrix(const int &,const int &,const T &)'
+          with
+          [
+              T=int
+          ]
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\main.cpp(324): message : see reference to function template instantiation 'Matrix<int>::Matrix(const int &,const int &,const T &)' being compiled
+          with
+          [
+              T=int
+          ]
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Matrix.h(143,24): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  2 of 106 functions ( 1.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Class_array_overload.vcxproj -> D:\My_projects\C++\STEP\Class_array_overload\Release\Class_array_overload.exe

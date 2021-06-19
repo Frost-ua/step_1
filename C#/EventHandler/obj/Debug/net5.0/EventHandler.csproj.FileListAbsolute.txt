@@ -1,0 +1,16 @@
+D:\My_projects\C#\lessons\lessons\EventHandler\bin\Debug\net5.0\EventHandler.exe
+D:\My_projects\C#\lessons\lessons\EventHandler\bin\Debug\net5.0\EventHandler.deps.json
+D:\My_projects\C#\lessons\lessons\EventHandler\bin\Debug\net5.0\EventHandler.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\EventHandler\bin\Debug\net5.0\EventHandler.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\EventHandler\bin\Debug\net5.0\EventHandler.dll
+D:\My_projects\C#\lessons\lessons\EventHandler\bin\Debug\net5.0\ref\EventHandler.dll
+D:\My_projects\C#\lessons\lessons\EventHandler\bin\Debug\net5.0\EventHandler.pdb
+D:\My_projects\C#\lessons\lessons\EventHandler\obj\Debug\net5.0\EventHandler.csprojAssemblyReference.cache
+D:\My_projects\C#\lessons\lessons\EventHandler\obj\Debug\net5.0\EventHandler.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\EventHandler\obj\Debug\net5.0\EventHandler.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\EventHandler\obj\Debug\net5.0\EventHandler.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\EventHandler\obj\Debug\net5.0\EventHandler.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\EventHandler\obj\Debug\net5.0\EventHandler.dll
+D:\My_projects\C#\lessons\lessons\EventHandler\obj\Debug\net5.0\ref\EventHandler.dll
+D:\My_projects\C#\lessons\lessons\EventHandler\obj\Debug\net5.0\EventHandler.pdb
+D:\My_projects\C#\lessons\lessons\EventHandler\obj\Debug\net5.0\EventHandler.genruntimeconfig.cache

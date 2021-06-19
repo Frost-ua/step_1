@@ -1,0 +1,16 @@
+D:\My_projects\C#\lessons\lessons\MyDirectory\bin\Debug\net5.0\MyDirectory.exe
+D:\My_projects\C#\lessons\lessons\MyDirectory\bin\Debug\net5.0\MyDirectory.deps.json
+D:\My_projects\C#\lessons\lessons\MyDirectory\bin\Debug\net5.0\MyDirectory.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\MyDirectory\bin\Debug\net5.0\MyDirectory.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\MyDirectory\bin\Debug\net5.0\MyDirectory.dll
+D:\My_projects\C#\lessons\lessons\MyDirectory\bin\Debug\net5.0\ref\MyDirectory.dll
+D:\My_projects\C#\lessons\lessons\MyDirectory\bin\Debug\net5.0\MyDirectory.pdb
+D:\My_projects\C#\lessons\lessons\MyDirectory\obj\Debug\net5.0\MyDirectory.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\MyDirectory\obj\Debug\net5.0\MyDirectory.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\MyDirectory\obj\Debug\net5.0\MyDirectory.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\MyDirectory\obj\Debug\net5.0\MyDirectory.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\MyDirectory\obj\Debug\net5.0\MyDirectory.dll
+D:\My_projects\C#\lessons\lessons\MyDirectory\obj\Debug\net5.0\ref\MyDirectory.dll
+D:\My_projects\C#\lessons\lessons\MyDirectory\obj\Debug\net5.0\MyDirectory.pdb
+D:\My_projects\C#\lessons\lessons\MyDirectory\obj\Debug\net5.0\MyDirectory.genruntimeconfig.cache
+D:\My_projects\C#\lessons\lessons\MyDirectory\obj\Debug\net5.0\MyDirectory.csprojAssemblyReference.cache

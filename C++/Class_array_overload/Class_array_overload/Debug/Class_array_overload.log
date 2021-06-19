@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\FwdList.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\DList.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\DList.h(221,1): warning C4812: obsolete declaration style: please use 'DList<T>::DList' instead
+D:\My_projects\C++\STEP\Class_array_overload\Class_array_overload\Book.h(46,8): warning C4834: discarding return value of function with 'nodiscard' attribute
+  Class_array_overload.vcxproj -> D:\My_projects\C++\STEP\Class_array_overload\Debug\Class_array_overload.exe

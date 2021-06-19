@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ff749040-45b1-49da-bc4b-127fab73ec53}</ProjectGuid>
+    <RootNamespace>Classarrayoverload</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Archer.cpp" />
+    <ClCompile Include="array.cpp" />
+    <ClCompile Include="Auto.cpp" />
+    <ClCompile Include="C:\Users\Admin777\Desktop\Pirate_wars.cpp" />
+    <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="fraction.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="group.cpp" />
+    <ClCompile Include="Mage.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="ProductionWorker.cpp" />
+    <ClCompile Include="pupil.cpp" />
+    <ClCompile Include="remote.cpp" />
+    <ClCompile Include="room.cpp" />
+    <ClCompile Include="String.cpp" />
+    <ClCompile Include="Swordsman.cpp" />
+    <ClCompile Include="Team.cpp" />
+    <ClCompile Include="TeamLeader.cpp" />
+    <ClCompile Include="tv.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="VideoCamera.cpp" />
+    <ClCompile Include="water.cpp" />
+    <ClCompile Include="Zoo.cpp" />
+    <ClCompile Include="ZooWorker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Archer.h" />
+    <ClInclude Include="array.h" />
+    <ClInclude Include="Auto.h" />
+    <ClInclude Include="Bear.h" />
+    <ClInclude Include="Book.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="CargoShip.h" />
+    <ClInclude Include="Catapult.h" />
+    <ClInclude Include="Crocodile.h" />
+    <ClInclude Include="CruiseShip.h" />
+    <ClInclude Include="Daddy.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="Deck.h" />
+    <ClInclude Include="DList.h" />
+    <ClInclude Include="doubleDeckShip.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="FileWorker.h" />
+    <ClInclude Include="Fleet.h" />
+    <ClInclude Include="Fortress.h" />
+    <ClInclude Include="FortressArcher.h" />
+    <ClInclude Include="fourDeckShip.h" />
+    <ClInclude Include="fraction.h" />
+    <ClInclude Include="FwdList.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Game_word.h" />
+    <ClInclude Include="Grandpa.h" />
+    <ClInclude Include="group.h" />
+    <ClInclude Include="Gun.h" />
+    <ClInclude Include="IEat.h" />
+    <ClInclude Include="ISleep.h" />
+    <ClInclude Include="IWalk.h" />
+    <ClInclude Include="IWatch.h" />
+    <ClInclude Include="lib.h" />
+    <ClInclude Include="Library.h" />
+    <ClInclude Include="Magazine.h" />
+    <ClInclude Include="Mage.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MyNode.h" />
+    <ClInclude Include="OffensesDatabase.h" />
+    <ClInclude Include="Parrot.h" />
+    <ClInclude Include="PriorityQueue.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="ProductionWorker.h" />
+    <ClInclude Include="pupil.h" />
+    <ClInclude Include="Quest.h" />
+    <ClInclude Include="Quest_list.h" />
+    <ClInclude Include="Ranger.h" />
+    <ClInclude Include="remote.h" />
+    <ClInclude Include="Ship.h" />
+    <ClInclude Include="room.h" />
+    <ClInclude Include="Ship_.h" />
+    <ClInclude Include="Shooter.h" />
+    <ClInclude Include="singleDeckShip.h" />
+    <ClInclude Include="Son.h" />
+    <ClInclude Include="String.h" />
+    <ClInclude Include="Swordsman.h" />
+    <ClInclude Include="Team.h" />
+    <ClInclude Include="TeamLeader.h" />
+    <ClInclude Include="threeDeckShip.h" />
+    <ClInclude Include="Tower.h" />
+    <ClInclude Include="tv.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="VideoCamera.h" />
+    <ClInclude Include="Violetion.h" />
+    <ClInclude Include="Vocabuary.h" />
+    <ClInclude Include="water.h" />
+    <ClInclude Include="Zoo.h" />
+    <ClInclude Include="ZooWorker.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

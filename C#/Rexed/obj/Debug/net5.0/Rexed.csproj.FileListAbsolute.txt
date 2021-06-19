@@ -1,0 +1,16 @@
+D:\My_projects\C#\lessons\lessons\Rexed\bin\Debug\net5.0\Rexed.exe
+D:\My_projects\C#\lessons\lessons\Rexed\bin\Debug\net5.0\Rexed.deps.json
+D:\My_projects\C#\lessons\lessons\Rexed\bin\Debug\net5.0\Rexed.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\Rexed\bin\Debug\net5.0\Rexed.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\Rexed\bin\Debug\net5.0\Rexed.dll
+D:\My_projects\C#\lessons\lessons\Rexed\bin\Debug\net5.0\ref\Rexed.dll
+D:\My_projects\C#\lessons\lessons\Rexed\bin\Debug\net5.0\Rexed.pdb
+D:\My_projects\C#\lessons\lessons\Rexed\obj\Debug\net5.0\Rexed.csprojAssemblyReference.cache
+D:\My_projects\C#\lessons\lessons\Rexed\obj\Debug\net5.0\Rexed.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\Rexed\obj\Debug\net5.0\Rexed.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\Rexed\obj\Debug\net5.0\Rexed.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\Rexed\obj\Debug\net5.0\Rexed.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\Rexed\obj\Debug\net5.0\Rexed.dll
+D:\My_projects\C#\lessons\lessons\Rexed\obj\Debug\net5.0\ref\Rexed.dll
+D:\My_projects\C#\lessons\lessons\Rexed\obj\Debug\net5.0\Rexed.pdb
+D:\My_projects\C#\lessons\lessons\Rexed\obj\Debug\net5.0\Rexed.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\My_projects\C#\lessons\lessons\Struct\bin\Debug\net5.0\Struct.exe
+D:\My_projects\C#\lessons\lessons\Struct\bin\Debug\net5.0\Struct.deps.json
+D:\My_projects\C#\lessons\lessons\Struct\bin\Debug\net5.0\Struct.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\Struct\bin\Debug\net5.0\Struct.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\Struct\bin\Debug\net5.0\Struct.dll
+D:\My_projects\C#\lessons\lessons\Struct\bin\Debug\net5.0\ref\Struct.dll
+D:\My_projects\C#\lessons\lessons\Struct\bin\Debug\net5.0\Struct.pdb
+D:\My_projects\C#\lessons\lessons\Struct\obj\Debug\net5.0\Struct.csprojAssemblyReference.cache
+D:\My_projects\C#\lessons\lessons\Struct\obj\Debug\net5.0\Struct.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\Struct\obj\Debug\net5.0\Struct.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\Struct\obj\Debug\net5.0\Struct.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\Struct\obj\Debug\net5.0\Struct.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\Struct\obj\Debug\net5.0\Struct.dll
+D:\My_projects\C#\lessons\lessons\Struct\obj\Debug\net5.0\ref\Struct.dll
+D:\My_projects\C#\lessons\lessons\Struct\obj\Debug\net5.0\Struct.pdb
+D:\My_projects\C#\lessons\lessons\Struct\obj\Debug\net5.0\Struct.genruntimeconfig.cache

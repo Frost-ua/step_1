@@ -1,0 +1,16 @@
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\bin\Debug\net5.0\SdandartDelegate.exe
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\bin\Debug\net5.0\SdandartDelegate.deps.json
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\bin\Debug\net5.0\SdandartDelegate.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\bin\Debug\net5.0\SdandartDelegate.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\bin\Debug\net5.0\SdandartDelegate.dll
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\bin\Debug\net5.0\ref\SdandartDelegate.dll
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\bin\Debug\net5.0\SdandartDelegate.pdb
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\obj\Debug\net5.0\SdandartDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\obj\Debug\net5.0\SdandartDelegate.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\obj\Debug\net5.0\SdandartDelegate.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\obj\Debug\net5.0\SdandartDelegate.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\obj\Debug\net5.0\SdandartDelegate.dll
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\obj\Debug\net5.0\ref\SdandartDelegate.dll
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\obj\Debug\net5.0\SdandartDelegate.pdb
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\obj\Debug\net5.0\SdandartDelegate.genruntimeconfig.cache
+D:\My_projects\C#\lessons\lessons\SdandartDelegate\obj\Debug\net5.0\SdandartDelegate.csprojAssemblyReference.cache

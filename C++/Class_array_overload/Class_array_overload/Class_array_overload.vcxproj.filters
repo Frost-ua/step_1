@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Heroes">
+      <UniqueIdentifier>{ede3c053-d64e-4846-b530-0467a0815dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fortress">
+      <UniqueIdentifier>{6ee3672a-0059-4d77-abdd-144aafbd65ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Zoo">
+      <UniqueIdentifier>{913cf5af-9b6f-4827-829e-180121f4275b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ship">
+      <UniqueIdentifier>{f212560a-0f28-4249-a010-8d1301b8edcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Employee">
+      <UniqueIdentifier>{6ed0cb4c-b406-402d-9bc8-70e21ee763e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TV">
+      <UniqueIdentifier>{cf8f3981-9200-4e2b-86d6-d363c6dd11be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pupil+Group">
+      <UniqueIdentifier>{1db296bb-402b-465c-98af-b7335949cd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Family">
+      <UniqueIdentifier>{e0f1ced9-3f3a-49a3-bada-9c0751c39d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Templates_Matrix">
+      <UniqueIdentifier>{d9aee70e-70b7-4889-860a-10163d274b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{c8c4bb40-4fa5-4195-bcd0-85cc613611cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Patterns">
+      <UniqueIdentifier>{a77fd48c-1c5f-47c4-aefd-e906785bc40b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game_WORD">
+      <UniqueIdentifier>{519de6e5-2436-4870-b018-45d6e67365df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stack_+_Queue">
+      <UniqueIdentifier>{79e22239-33e9-4c77-ad61-53a72d649309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stack_+_Queue\Gun_+_magazine_+_bullets">
+      <UniqueIdentifier>{65087d97-e240-44a1-bbcf-ab663b9d8068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stack_+_Queue\PriorityQueue">
+      <UniqueIdentifier>{31dcd0f3-e8e9-4179-b18b-4ce67cc32435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lists">
+      <UniqueIdentifier>{c99e8d0a-c532-4331-9e42-e526eaaf1f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bynary_tree">
+      <UniqueIdentifier>{bebd0632-dcbd-4226-9dfd-2d35cb9b739a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Set_Map">
+      <UniqueIdentifier>{f27e4339-3e31-4481-a370-2bb4e2bd2a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Set_Map\Map">
+      <UniqueIdentifier>{7cc84968-468c-47f6-8082-dac16f439402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Room">
+      <UniqueIdentifier>{91330141-3770-4a0e-a569-52e8b9e7c77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Water">
+      <UniqueIdentifier>{3c3bd3ac-3b5d-4dac-8076-13effe1e6d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fraction">
+      <UniqueIdentifier>{4bd92849-e80e-4b3c-aa12-5cc8382e3ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\String">
+      <UniqueIdentifier>{e7f91be8-897b-46c9-abb5-13e73d0b6f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Array">
+      <UniqueIdentifier>{a6aa07dd-e7eb-4c2a-a682-c62dc10982cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Battle_Sea">
+      <UniqueIdentifier>{364e1932-a09b-4aeb-b01d-8c385330ef2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Work_with_files">
+      <UniqueIdentifier>{b7851c26-1c99-4560-8687-05423c2c70c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Work_with_files\Class_work">
+      <UniqueIdentifier>{058219c3-8085-4a94-9b80-958ed190458d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Work_with_files\Home_work">
+      <UniqueIdentifier>{62d97323-dcec-4a5c-8c2e-70fe58b63d3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="Swordsman.cpp">
+      <Filter>Source Files\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>Source Files\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>Source Files\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="Team.cpp">
+      <Filter>Source Files\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Heroes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZooWorker.cpp">
+      <Filter>Source Files\Zoo</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>Source Files\Zoo</Filter>
+    </ClCompile>
+    <ClCompile Include="Zoo.cpp">
+      <Filter>Source Files\Zoo</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Zoo</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoCamera.cpp">
+      <Filter>Source Files\Zoo</Filter>
+    </ClCompile>
+    <ClCompile Include="Employee.cpp">
+      <Filter>Source Files\Employee</Filter>
+    </ClCompile>
+    <ClCompile Include="ProductionWorker.cpp">
+      <Filter>Source Files\Employee</Filter>
+    </ClCompile>
+    <ClCompile Include="TeamLeader.cpp">
+      <Filter>Source Files\Employee</Filter>
+    </ClCompile>
+    <ClCompile Include="tv.cpp">
+      <Filter>Source Files\TV</Filter>
+    </ClCompile>
+    <ClCompile Include="remote.cpp">
+      <Filter>Source Files\TV</Filter>
+    </ClCompile>
+    <ClCompile Include="pupil.cpp">
+      <Filter>Source Files\Pupil+Group</Filter>
+    </ClCompile>
+    <ClCompile Include="group.cpp">
+      <Filter>Source Files\Pupil+Group</Filter>
+    </ClCompile>
+    <ClCompile Include="Auto.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="room.cpp">
+      <Filter>Source Files\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="water.cpp">
+      <Filter>Source Files\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="fraction.cpp">
+      <Filter>Source Files\Fraction</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin777\Desktop\Pirate_wars.cpp">
+      <Filter>Source Files\Battle_Sea</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unit.h">
+      <Filter>Source Files\Heroes</Filter>
+    </ClInclude>
+    <ClInclude Include="Swordsman.h">
+      <Filter>Source Files\Heroes</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>Source Files\Heroes</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.h">
+      <Filter>Source Files\Heroes</Filter>
+    </ClInclude>
+    <ClInclude Include="Team.h">
+      <Filter>Source Files\Heroes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Heroes</Filter>
+    </ClInclude>
+    <ClInclude Include="IWalk.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="IEat.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="ISleep.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="Bear.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="Parrot.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="IWatch.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoCamera.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="ZooWorker.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="Zoo.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="Crocodile.h">
+      <Filter>Source Files\Zoo</Filter>
+    </ClInclude>
+    <ClInclude Include="CargoShip.h">
+      <Filter>Source Files\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="CruiseShip.h">
+      <Filter>Source Files\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Source Files\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Source Files\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductionWorker.h">
+      <Filter>Source Files\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="TeamLeader.h">
+      <Filter>Source Files\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="remote.h">
+      <Filter>Source Files\TV</Filter>
+    </ClInclude>
+    <ClInclude Include="tv.h">
+      <Filter>Source Files\TV</Filter>
+    </ClInclude>
+    <ClInclude Include="pupil.h">
+      <Filter>Source Files\Pupil+Group</Filter>
+    </ClInclude>
+    <ClInclude Include="group.h">
+      <Filter>Source Files\Pupil+Group</Filter>
+    </ClInclude>
+    <ClInclude Include="Grandpa.h">
+      <Filter>Source Files\Family</Filter>
+    </ClInclude>
+    <ClInclude Include="Daddy.h">
+      <Filter>Source Files\Family</Filter>
+    </ClInclude>
+    <ClInclude Include="Son.h">
+      <Filter>Source Files\Family</Filter>
+    </ClInclude>
+    <ClInclude Include="Auto.h">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Source Files\Templates_Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_word.h">
+      <Filter>Source Files\Game_WORD</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest.h">
+      <Filter>Source Files\Game_WORD</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest_list.h">
+      <Filter>Source Files\Game_WORD</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Source Files\Stack_+_Queue\Gun_+_magazine_+_bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Magazine.h">
+      <Filter>Source Files\Stack_+_Queue\Gun_+_magazine_+_bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Source Files\Stack_+_Queue\Gun_+_magazine_+_bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Source Files\Stack_+_Queue\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>Source Files\Stack_+_Queue\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="FwdList.h">
+      <Filter>Source Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="DList.h">
+      <Filter>Source Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Source Files\Bynary_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Violetion.h">
+      <Filter>Source Files\Bynary_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="OffensesDatabase.h">
+      <Filter>Source Files\Bynary_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="MyNode.h">
+      <Filter>Source Files\Bynary_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Vocabuary.h">
+      <Filter>Source Files\Set_Map\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="room.h">
+      <Filter>Source Files\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="water.h">
+      <Filter>Source Files\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="fraction.h">
+      <Filter>Source Files\Fraction</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Source Files\String</Filter>
+    </ClInclude>
+    <ClInclude Include="array.h">
+      <Filter>Source Files\Array</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWorker.h">
+      <Filter>Source Files\Work_with_files\Class_work</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>Source Files\Work_with_files\Home_work</Filter>
+    </ClInclude>
+    <ClInclude Include="Library.h">
+      <Filter>Source Files\Work_with_files\Home_work</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Source Files\Battle_Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship_.h">
+      <Filter>Source Files\Battle_Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Source Files\Battle_Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="singleDeckShip.h">
+      <Filter>Source Files\Battle_Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="doubleDeckShip.h">
+      <Filter>Source Files\Battle_Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="threeDeckShip.h">
+      <Filter>Source Files\Battle_Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="Fleet.h">
+      <Filter>Source Files\Battle_Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="fourDeckShip.h">
+      <Filter>Source Files\Battle_Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Source Files\Battle_Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter.h">
+      <Filter>Source Files\Fortress</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranger.h">
+      <Filter>Source Files\Fortress</Filter>
+    </ClInclude>
+    <ClInclude Include="FortressArcher.h">
+      <Filter>Source Files\Fortress</Filter>
+    </ClInclude>
+    <ClInclude Include="Fortress.h">
+      <Filter>Source Files\Fortress</Filter>
+    </ClInclude>
+    <ClInclude Include="Catapult.h">
+      <Filter>Source Files\Fortress</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>Source Files\Fortress</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

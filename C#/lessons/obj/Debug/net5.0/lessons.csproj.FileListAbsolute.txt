@@ -1,0 +1,16 @@
+D:\My_projects\C#\lessons\lessons\lessons\bin\Debug\net5.0\lessons.exe
+D:\My_projects\C#\lessons\lessons\lessons\bin\Debug\net5.0\lessons.deps.json
+D:\My_projects\C#\lessons\lessons\lessons\bin\Debug\net5.0\lessons.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\lessons\bin\Debug\net5.0\lessons.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\lessons\bin\Debug\net5.0\lessons.dll
+D:\My_projects\C#\lessons\lessons\lessons\bin\Debug\net5.0\ref\lessons.dll
+D:\My_projects\C#\lessons\lessons\lessons\bin\Debug\net5.0\lessons.pdb
+D:\My_projects\C#\lessons\lessons\lessons\obj\Debug\net5.0\lessons.csprojAssemblyReference.cache
+D:\My_projects\C#\lessons\lessons\lessons\obj\Debug\net5.0\lessons.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\lessons\obj\Debug\net5.0\lessons.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\lessons\obj\Debug\net5.0\lessons.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\lessons\obj\Debug\net5.0\lessons.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\lessons\obj\Debug\net5.0\lessons.dll
+D:\My_projects\C#\lessons\lessons\lessons\obj\Debug\net5.0\ref\lessons.dll
+D:\My_projects\C#\lessons\lessons\lessons\obj\Debug\net5.0\lessons.pdb
+D:\My_projects\C#\lessons\lessons\lessons\obj\Debug\net5.0\lessons.genruntimeconfig.cache

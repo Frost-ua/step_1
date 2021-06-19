@@ -1,0 +1,16 @@
+D:\My_projects\C#\lessons\lessons\Interfaces\bin\Debug\net5.0\Interfaces.exe
+D:\My_projects\C#\lessons\lessons\Interfaces\bin\Debug\net5.0\Interfaces.deps.json
+D:\My_projects\C#\lessons\lessons\Interfaces\bin\Debug\net5.0\Interfaces.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\Interfaces\bin\Debug\net5.0\Interfaces.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\Interfaces\bin\Debug\net5.0\Interfaces.dll
+D:\My_projects\C#\lessons\lessons\Interfaces\bin\Debug\net5.0\ref\Interfaces.dll
+D:\My_projects\C#\lessons\lessons\Interfaces\bin\Debug\net5.0\Interfaces.pdb
+D:\My_projects\C#\lessons\lessons\Interfaces\obj\Debug\net5.0\Interfaces.csprojAssemblyReference.cache
+D:\My_projects\C#\lessons\lessons\Interfaces\obj\Debug\net5.0\Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\Interfaces\obj\Debug\net5.0\Interfaces.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\Interfaces\obj\Debug\net5.0\Interfaces.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\Interfaces\obj\Debug\net5.0\Interfaces.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\Interfaces\obj\Debug\net5.0\Interfaces.dll
+D:\My_projects\C#\lessons\lessons\Interfaces\obj\Debug\net5.0\ref\Interfaces.dll
+D:\My_projects\C#\lessons\lessons\Interfaces\obj\Debug\net5.0\Interfaces.pdb
+D:\My_projects\C#\lessons\lessons\Interfaces\obj\Debug\net5.0\Interfaces.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+﻿  Animal.cpp
+  main.cpp
+  Menu.cpp
+  VideoCamera.cpp
+  Zoo.cpp
+D:\My_projects\C++\STEP\Zoo.cpp(75,22): warning C4018: '<': signed/unsigned mismatch
+D:\My_projects\C++\STEP\Zoo.cpp(105,21): warning C4018: '<': signed/unsigned mismatch
+D:\My_projects\C++\STEP\Zoo.cpp(131,21): warning C4018: '<': signed/unsigned mismatch
+  ZooWorker.cpp
+  Generating Code...
+  Zoo.vcxproj -> D:\My_projects\C++\STEP\Class_array_overload\Debug\Zoo.exe

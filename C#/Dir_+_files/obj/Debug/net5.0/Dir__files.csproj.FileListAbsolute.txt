@@ -1,0 +1,16 @@
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\Dir__files.exe
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\Dir__files.deps.json
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\Dir__files.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\Dir__files.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\Dir__files.dll
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\ref\Dir__files.dll
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\Dir__files.pdb
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir__files.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir__files.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir__files.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir__files.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir__files.dll
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\ref\Dir__files.dll
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir__files.pdb
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir__files.genruntimeconfig.cache
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir__files.csprojAssemblyReference.cache

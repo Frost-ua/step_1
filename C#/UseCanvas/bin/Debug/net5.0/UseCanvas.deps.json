@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UseCanvas/1.0.0": {
+        "dependencies": {
+          "Shapes": "1.0.0"
+        },
+        "runtime": {
+          "UseCanvas.dll": {}
+        }
+      },
+      "Shapes/1.0.0": {
+        "runtime": {
+          "Shapes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UseCanvas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shapes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

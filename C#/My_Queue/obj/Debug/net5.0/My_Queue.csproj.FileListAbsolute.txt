@@ -1,0 +1,16 @@
+D:\My_projects\C#\lessons\lessons\My_Queue\obj\Debug\net5.0\My_Queue.csprojAssemblyReference.cache
+D:\My_projects\C#\lessons\lessons\My_Queue\obj\Debug\net5.0\My_Queue.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\My_Queue\obj\Debug\net5.0\My_Queue.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\My_Queue\obj\Debug\net5.0\My_Queue.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\My_Queue\obj\Debug\net5.0\My_Queue.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\My_Queue\bin\Debug\net5.0\My_Queue.exe
+D:\My_projects\C#\lessons\lessons\My_Queue\bin\Debug\net5.0\My_Queue.deps.json
+D:\My_projects\C#\lessons\lessons\My_Queue\bin\Debug\net5.0\My_Queue.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\My_Queue\bin\Debug\net5.0\My_Queue.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\My_Queue\bin\Debug\net5.0\My_Queue.dll
+D:\My_projects\C#\lessons\lessons\My_Queue\bin\Debug\net5.0\ref\My_Queue.dll
+D:\My_projects\C#\lessons\lessons\My_Queue\bin\Debug\net5.0\My_Queue.pdb
+D:\My_projects\C#\lessons\lessons\My_Queue\obj\Debug\net5.0\My_Queue.dll
+D:\My_projects\C#\lessons\lessons\My_Queue\obj\Debug\net5.0\ref\My_Queue.dll
+D:\My_projects\C#\lessons\lessons\My_Queue\obj\Debug\net5.0\My_Queue.pdb
+D:\My_projects\C#\lessons\lessons\My_Queue\obj\Debug\net5.0\My_Queue.genruntimeconfig.cache

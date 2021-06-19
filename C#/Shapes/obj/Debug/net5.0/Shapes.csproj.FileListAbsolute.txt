@@ -1,0 +1,12 @@
+D:\My_projects\C#\lessons\lessons\Shapes\bin\Debug\net5.0\Shapes.deps.json
+D:\My_projects\C#\lessons\lessons\Shapes\bin\Debug\net5.0\Shapes.dll
+D:\My_projects\C#\lessons\lessons\Shapes\bin\Debug\net5.0\ref\Shapes.dll
+D:\My_projects\C#\lessons\lessons\Shapes\bin\Debug\net5.0\Shapes.pdb
+D:\My_projects\C#\lessons\lessons\Shapes\obj\Debug\net5.0\Shapes.csprojAssemblyReference.cache
+D:\My_projects\C#\lessons\lessons\Shapes\obj\Debug\net5.0\Shapes.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\Shapes\obj\Debug\net5.0\Shapes.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\Shapes\obj\Debug\net5.0\Shapes.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\Shapes\obj\Debug\net5.0\Shapes.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\Shapes\obj\Debug\net5.0\Shapes.dll
+D:\My_projects\C#\lessons\lessons\Shapes\obj\Debug\net5.0\ref\Shapes.dll
+D:\My_projects\C#\lessons\lessons\Shapes\obj\Debug\net5.0\Shapes.pdb

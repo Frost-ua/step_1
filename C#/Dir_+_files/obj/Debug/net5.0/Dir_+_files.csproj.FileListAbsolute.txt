@@ -1,0 +1,16 @@
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\Dir_+_files.exe
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\Dir_+_files.deps.json
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\Dir_+_files.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\Dir_+_files.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\Dir_+_files.dll
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\ref\Dir_+_files.dll
+D:\My_projects\C#\lessons\lessons\Dir_+_files\bin\Debug\net5.0\Dir_+_files.pdb
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir_+_files.csprojAssemblyReference.cache
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir_+_files.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir_+_files.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir_+_files.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir_+_files.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir_+_files.dll
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\ref\Dir_+_files.dll
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir_+_files.pdb
+D:\My_projects\C#\lessons\lessons\Dir_+_files\obj\Debug\net5.0\Dir_+_files.genruntimeconfig.cache

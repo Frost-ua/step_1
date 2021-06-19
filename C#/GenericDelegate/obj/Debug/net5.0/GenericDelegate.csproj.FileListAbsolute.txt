@@ -1,0 +1,15 @@
+D:\My_projects\C#\lessons\lessons\GenericDelegate\bin\Debug\net5.0\GenericDelegate.exe
+D:\My_projects\C#\lessons\lessons\GenericDelegate\bin\Debug\net5.0\GenericDelegate.deps.json
+D:\My_projects\C#\lessons\lessons\GenericDelegate\bin\Debug\net5.0\GenericDelegate.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\GenericDelegate\bin\Debug\net5.0\GenericDelegate.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\GenericDelegate\bin\Debug\net5.0\GenericDelegate.dll
+D:\My_projects\C#\lessons\lessons\GenericDelegate\bin\Debug\net5.0\ref\GenericDelegate.dll
+D:\My_projects\C#\lessons\lessons\GenericDelegate\bin\Debug\net5.0\GenericDelegate.pdb
+D:\My_projects\C#\lessons\lessons\GenericDelegate\obj\Debug\net5.0\GenericDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\GenericDelegate\obj\Debug\net5.0\GenericDelegate.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\GenericDelegate\obj\Debug\net5.0\GenericDelegate.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\GenericDelegate\obj\Debug\net5.0\GenericDelegate.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\GenericDelegate\obj\Debug\net5.0\GenericDelegate.dll
+D:\My_projects\C#\lessons\lessons\GenericDelegate\obj\Debug\net5.0\ref\GenericDelegate.dll
+D:\My_projects\C#\lessons\lessons\GenericDelegate\obj\Debug\net5.0\GenericDelegate.pdb
+D:\My_projects\C#\lessons\lessons\GenericDelegate\obj\Debug\net5.0\GenericDelegate.genruntimeconfig.cache

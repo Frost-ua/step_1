@@ -1,0 +1,16 @@
+D:\My_projects\C#\lessons\lessons\DisposePattern\bin\Debug\net5.0\DisposePattern.exe
+D:\My_projects\C#\lessons\lessons\DisposePattern\bin\Debug\net5.0\DisposePattern.deps.json
+D:\My_projects\C#\lessons\lessons\DisposePattern\bin\Debug\net5.0\DisposePattern.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\DisposePattern\bin\Debug\net5.0\DisposePattern.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\DisposePattern\bin\Debug\net5.0\DisposePattern.dll
+D:\My_projects\C#\lessons\lessons\DisposePattern\bin\Debug\net5.0\ref\DisposePattern.dll
+D:\My_projects\C#\lessons\lessons\DisposePattern\bin\Debug\net5.0\DisposePattern.pdb
+D:\My_projects\C#\lessons\lessons\DisposePattern\obj\Debug\net5.0\DisposePattern.csprojAssemblyReference.cache
+D:\My_projects\C#\lessons\lessons\DisposePattern\obj\Debug\net5.0\DisposePattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\DisposePattern\obj\Debug\net5.0\DisposePattern.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\DisposePattern\obj\Debug\net5.0\DisposePattern.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\DisposePattern\obj\Debug\net5.0\DisposePattern.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\DisposePattern\obj\Debug\net5.0\DisposePattern.dll
+D:\My_projects\C#\lessons\lessons\DisposePattern\obj\Debug\net5.0\ref\DisposePattern.dll
+D:\My_projects\C#\lessons\lessons\DisposePattern\obj\Debug\net5.0\DisposePattern.pdb
+D:\My_projects\C#\lessons\lessons\DisposePattern\obj\Debug\net5.0\DisposePattern.genruntimeconfig.cache

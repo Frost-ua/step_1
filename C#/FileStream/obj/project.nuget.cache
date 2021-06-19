@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WznCX/OtymM2Gi+p8HthXN9pDLKeGwQOsNIoZdvK39+Xc/2O2pVeCmOHO+8an0B3iLPT0apbqNP5iKlzPLEUng==",
+  "success": true,
+  "projectFilePath": "D:\\My_projects\\C#\\lessons\\lessons\\FileStream\\MyFileStream.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin777\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

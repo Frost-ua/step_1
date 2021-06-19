@@ -1,0 +1,16 @@
+D:\My_projects\C#\lessons\lessons\Events\bin\Debug\net5.0\Events.exe
+D:\My_projects\C#\lessons\lessons\Events\bin\Debug\net5.0\Events.deps.json
+D:\My_projects\C#\lessons\lessons\Events\bin\Debug\net5.0\Events.runtimeconfig.json
+D:\My_projects\C#\lessons\lessons\Events\bin\Debug\net5.0\Events.runtimeconfig.dev.json
+D:\My_projects\C#\lessons\lessons\Events\bin\Debug\net5.0\Events.dll
+D:\My_projects\C#\lessons\lessons\Events\bin\Debug\net5.0\ref\Events.dll
+D:\My_projects\C#\lessons\lessons\Events\bin\Debug\net5.0\Events.pdb
+D:\My_projects\C#\lessons\lessons\Events\obj\Debug\net5.0\Events.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_projects\C#\lessons\lessons\Events\obj\Debug\net5.0\Events.AssemblyInfoInputs.cache
+D:\My_projects\C#\lessons\lessons\Events\obj\Debug\net5.0\Events.AssemblyInfo.cs
+D:\My_projects\C#\lessons\lessons\Events\obj\Debug\net5.0\Events.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\lessons\Events\obj\Debug\net5.0\Events.dll
+D:\My_projects\C#\lessons\lessons\Events\obj\Debug\net5.0\ref\Events.dll
+D:\My_projects\C#\lessons\lessons\Events\obj\Debug\net5.0\Events.pdb
+D:\My_projects\C#\lessons\lessons\Events\obj\Debug\net5.0\Events.genruntimeconfig.cache
+D:\My_projects\C#\lessons\lessons\Events\obj\Debug\net5.0\Events.csprojAssemblyReference.cache
