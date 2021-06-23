@@ -204,15 +204,14 @@ VALUES
 GO
 
 ---==============================================================================================================================================================================
---- Используя триггеры, пользовательские функции, хранимые процедуры реализуйте следующую функциональность:
---- 1. Вернуть ФИО всех барберов салона
+--- 1. Return first name and last name of all barbers
 CREATE OR ALTER PROCEDURE sp_ShowAllBarbers
 AS
 SELECT b.FirstName + ' ' + b.LastName AS 'Barbers' FROM Barbers AS b
 
 EXEC sp_ShowAllBarbers;
 
---- 2. Вернуть информацию о всех синьор-барберах
+--- 2. Return information about all barbers
 CREATE OR ALTER PROCEDURE sp_ShowAllSeniors
 AS
 SELECT b.FirstName + ' ' + b.LastName AS 'Full name', b.Gender, p.[Name] AS 'Position', b.Email, b.Phone, b.BirthDate, b.HireDate
@@ -221,7 +220,7 @@ WHERE p.[Name] LIKE '%senior%'
 
 EXEC sp_ShowAllSeniors
 
---- 3. Вернуть информацию о всех барберах, которые могут предоставить услугу традиционного бритья бороды (Beard Trim)
+--- 3. Return information about all barbers, who can give service 'Beard Trim'
 CREATE OR ALTER PROCEDURE sp_ShowBeardTrimBarbers
 AS
 SELECT DISTINCT b.FirstName + ' ' + b.LastName AS 'Full name', b.Gender, p.[Name] AS 'Position', b.Email, b.Phone, b.BirthDate, b.HireDate, s.[Name] AS 'Service'
@@ -232,7 +231,7 @@ FROM Barbers AS b JOIN Positions AS p ON b.PositionId = p.Id
 
 EXEC sp_ShowBeardTrimBarbers
 
---- 4. Вернуть информацию о всех барберах, которые могут предоставить конкретную услугу. Информация о требуемой услуге предоставляется в качестве параметра
+--- 4. Return information about all barbers, who can give specific service. Information about service gets as argument
 CREATE OR ALTER FUNCTION udf_ShowSpecificService (@name VARCHAR(30))
 RETURNS @result TABLE (Id int PRIMARY KEY IDENTITY, FullName VARCHAR(30), Gender VARCHAR(10), Position VARCHAR(30), Email VARCHAR(30), Phone VARCHAR(15), BirthDate DATE, HireDate DATE)
 AS
@@ -250,7 +249,7 @@ END;
 
 SELECT * FROM udf_ShowSpecificService ('Kid Cut')
 
---- 5. Вернуть информацию о всех барберах, которые работают свыше указанного количества лет. Количество лет передаётся в качестве параметра
+--- 5. Return information about all barbers, who works more than specific amount of years. Amount of years gets as argument
 CREATE OR ALTER FUNCTION udf_BarbersByWorkedYears (@years INT)
 RETURNS @result TABLE (Id int PRIMARY KEY IDENTITY, FullName VARCHAR(30), Gender VARCHAR(10), Position VARCHAR(30), Email VARCHAR(30), Phone VARCHAR(15), BirthDate DATE, HireDate DATE)
 AS
@@ -266,7 +265,7 @@ END;
 
 SELECT * FROM udf_BarbersByWorkedYears (5)
 
---- 6. Вернуть количество синьор-барберов и количество джуниор-барберов
+--- 6. Return amount of Senior barbers and Junior barbers
 CREATE OR ALTER PROCEDURE sp_AmountJuniorsSeniors
 AS
 	SELECT 'Amount of Senior barbers' AS 'Position', COUNT (b.Id) AS 'Amount'
@@ -280,7 +279,7 @@ AS
 
 EXEC sp_AmountJuniorsSeniors
 
---- 7. Вернуть информацию о постоянных клиентах. Критерий постоянного клиента: был в салоне заданное количество раз. Количество передаётся в качестве параметра
+--- 7. Return information about regular clients.Rule of regular client: they visited barbershop a specific amount of times. Amount of times gets as argument
 CREATE OR ALTER FUNCTION udf_GetRegularClients (@count INT)
 RETURNS @result TABLE (FirstName VARCHAR(20), LastName VARCHAR(20), Phone VARCHAR(15), Email VARCHAR(30), CountOfVisits INT)
 AS
@@ -295,7 +294,7 @@ END;
 
 SELECT * FROM udf_GetRegularClients (3)
 
---- 8. Запретить возможность удаления информации о чиф-барбере, если не добавлен второй чиф-барбер
+--- 8. Deny to delete info about chief if wasn't add another chief barber
 CREATE OR ALTER TRIGGER tg_DenyDeleteChief
 ON Barbers
 AFTER DELETE
@@ -315,7 +314,7 @@ AS
 		ROLLBACK
 	END;
 
---- 9. Запретить добавлять барберов младше 21 года.
+--- 9. Deny to add barbers yonger than 21
 CREATE OR ALTER TRIGGER tg_DenyAddYongerThan21
 ON Barbers
 AFTER INSERT
