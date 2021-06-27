@@ -60,14 +60,14 @@ CREATE TABLE [Services]
 Id INT PRIMARY KEY IDENTITY(1,1),
 [Name] VARCHAR(MAX) NOT NULL,
 Price MONEY NOT NULL CHECK (Price > 0),
-Duration INT NOT NULL CHECK (Duration > 0)
+Duration TIME NOT NULL CHECK (Duration > '00:00')
 );
 GO
 
 INSERT INTO [Services]([Name], Price, Duration)
 VALUES
-('Haircut', 250, 60),('Kid Cut', 200, 30),('Clipper Cut', 300, 75),('Skin Fade', 1000, 120),('Skin Fade Sides', 500, 60),
-('Hot Towel Head Shave', 550, 120),('Hot Towel Face Shave', 350, 60),('Beard Trim', 320, 45),('Beard Styling', 200, 30),('Shoe Shine', 150, 30)
+('Haircut', 250, '01:00'),('Kid Cut', 200, '00:30'),('Clipper Cut', 300, '01:50'),('Skin Fade', 1000, '02:00'),('Skin Fade Sides', 500, '01:00'),
+('Hot Towel Head Shave', 550, '02:00'),('Hot Towel Face Shave', 350, '01:00'),('Beard Trim', 320, '00:45'),('Beard Styling', 200, '00:30'),('Shoe Shine', 150, '00:30')
 GO
 
 CREATE TABLE BarberServices
@@ -137,7 +137,7 @@ Id INT PRIMARY KEY IDENTITY(1,1),
 ClientId INT NOT NULL FOREIGN KEY REFERENCES Clients (Id),
 BarberId INT NOT NULL FOREIGN KEY REFERENCES Barbers (Id),
 ServiceId INT NOT NULL FOREIGN KEY REFERENCES [Services] (Id),
-[Date] DATE NOT NULL CHECK ([Date] >= GETDATE()),
+[Date] DATE NOT NULL,
 [Time] TIME NOT NULL CHECK ([Time] >= '10:00:00' AND [Time] <= '19:30:00')
 );
 GO
@@ -203,7 +203,19 @@ VALUES
 (4, 16, 420, 29),(6, 45, 300, 10)
 GO
 
----==============================================================================================================================================================================
+CREATE TABLE ServicesArchive
+(
+Id INT PRIMARY KEY IDENTITY(1,1),
+BarberName VARCHAR(30) NOT NULL,
+[Service] VARCHAR(30) NOT NULL,
+ClientName VARCHAR(30) NOT NULL,
+[Date] DATE NOT NULL,
+StartTime VARCHAR(10) NOT NULL
+);
+GO
+
+---===============================================================   TASK #1   ==========================================================================================
+
 --- 1. Return first name and last name of all barbers
 CREATE OR ALTER PROCEDURE sp_ShowAllBarbers
 AS
@@ -336,18 +348,220 @@ VALUES
 ('Edward', 'Blade', '458-499-3363', 'Male', 'blade@live.com', '12/6/2006', '3/12/2018', 2)
 
 
+---===============================================   TASK #2    ==================================================================================================
 
+--- 10. Return information about the barber who has been working in the barbershop for the longest time
+CREATE OR ALTER PROCEDURE sp_ShowLongestWorkBarber
+AS
+	SELECT * FROM Barbers AS b
+	WHERE b.HireDate = (SELECT TOP 1 b.HireDate FROM Barbers AS b ORDER BY b.HireDate)
 
+EXEC sp_ShowLongestWorkBarber
 
+--- 11. Return information about the barber who served the maximum number of clients in the specified date range. Dates are passed as a parameter
+CREATE OR ALTER FUNCTION udf_GetBarberServicedMostClients (@from DATE, @to DATE)
+RETURNS @result TABLE (FullName VARCHAR(30), Gender VARCHAR(10), Position VARCHAR(30), Email VARCHAR(30), Phone VARCHAR(12), BirthDate DATE, HireDate DATE, AmountOfClients INT)
+AS
+BEGIN
+	INSERT INTO @result (FullName, Gender, Position, Email, Phone, BirthDate, HireDate, AmountOfClients)
+		(SELECT b.FirstName + ' ' + b.LastName, b.Gender, p.[Name], b.Email, b.Phone, b.BirthDate, b.HireDate, COUNT(bo.ClientId)
+		FROM Barbers AS b JOIN Positions AS p ON b.PositionId = p.Id
+				  JOIN Bookings AS bo ON b.Id = bo.BarberId
+				  WHERE bo.[Date] BETWEEN @from AND @to
+GROUP BY b.FirstName + ' ' + b.LastName, b.Gender, p.[Name], b.Email, b.Phone, b.BirthDate, b.HireDate
+HAVING COUNT(bo.ClientId) = (SELECT TOP 1 COUNT(bo.ClientId)
+							 FROM Barbers AS b JOIN Positions AS p ON b.PositionId = p.Id
+							 JOIN Bookings AS bo ON b.Id = bo.BarberId
+							 WHERE bo.[Date] BETWEEN @from AND @to
+							 GROUP BY b.FirstName ORDER BY COUNT(bo.ClientId) DESC))
+RETURN;
+END;
 
+SELECT * FROM udf_GetBarberServicedMostClients('2021-06-01','2021-06-30')
 
+--- 12. Return information about the client who visited the barbershop the maximum number of times
+CREATE OR ALTER PROCEDURE sp_ShowMostOftenVisitsClient
+AS
+SELECT c.FirstName + ' ' + c.LastName AS 'Client full name', c.Email, c.Phone, COUNT(c.Id) AS 'Number of planned visits'
+FROM Clients AS c JOIN Bookings AS b ON b.ClientId = c.Id
+GROUP BY c.FirstName + ' ' + c.LastName, c.Email, c.Phone
+HAVING COUNT(c.Id) = (SELECT TOP 1 COUNT(c.Id)
+					  FROM Clients AS c JOIN Bookings AS b ON b.ClientId = c.Id
+					  GROUP BY c.FirstName ORDER BY COUNT(c.Id) DESC)
 
+EXEC sp_ShowMostOftenVisitsClient;
 
+--- 13. Return information about the client who spent the maximum amount of money in the barbershop
+CREATE OR ALTER PROCEDURE sp_ShowMostSpendMoneyClient
+AS
+SELECT c.FirstName + ' ' + c.LastName AS 'Client full name', c.Email, c.Phone, SUM(s.Price) AS 'Amount of money for services'   
+FROM Clients AS c JOIN Bookings AS b ON b.ClientId = c.Id
+				  JOIN Services AS s ON b.ServiceId = s.Id	
+GROUP BY c.FirstName + ' ' + c.LastName, c.Email, c.Phone
+HAVING SUM(s.Price) = (SELECT TOP 1 SUM(s.Price)   
+					   FROM Clients AS c JOIN Bookings AS b ON b.ClientId = c.Id
+										 JOIN Services AS s ON b.ServiceId = s.Id	
+					   GROUP BY c.FirstName ORDER BY SUM(s.Price) DESC)
 
+EXEC sp_ShowMostSpendMoneyClient
 
+--- 14. Return information about the longest service in the barbershop
+CREATE OR ALTER PROCEDURE sp_ShowLongestService
+AS
+SELECT s.[Name] AS 'Service', s.Price, s.Duration FROM Services AS s
+WHERE s.Duration = (SELECT TOP 1 s.Duration FROM Services AS s ORDER BY s.Duration DESC)
 
+EXEC sp_ShowLongestService
 
+--- 15. Return information about the most popular barber (by the number of clients)
+CREATE OR ALTER PROCEDURE sp_ShowMostCustomersBarber
+AS
+SELECT b.FirstName + ' ' + b.LastName, b.Gender, p.[Name], b.Email, b.Phone, b.BirthDate, b.HireDate, COUNT(c.Id) AS 'Amount of cutomers'
+		FROM Barbers AS b JOIN Positions AS p ON p.Id = b.PositionId
+						  JOIN Bookings AS bo ON b.Id = bo.BarberId
+						  JOIN Clients AS c ON bo.ClientId = c.Id
+GROUP BY b.FirstName + ' ' + b.LastName, b.Gender, p.[Name], b.Email, b.Phone, b.BirthDate, b.HireDate
+HAVING COUNT(c.Id) = (SELECT TOP 1 COUNT(c.Id) FROM Barbers AS b JOIN Bookings AS bo ON b.Id = bo.BarberId
+																 JOIN Clients AS c ON bo.ClientId = c.Id
+					  GROUP BY b.FirstName ORDER BY COUNT(c.Id) DESC)
 
+EXEC sp_ShowMostCustomersBarber
+
+--- 16. Return the top 3 barbers in a month (based on the amount of money spent by clients)
+CREATE OR ALTER FUNCTION udf_GetREceivedMoneyByMonth (@month INT)
+RETURNS @result TABLE (Barbers_name VARCHAR(30), Gender VARCHAR(10), Position VARCHAR(30), Email VARCHAR(30), Phone VARCHAR(15), BirthDate DATE, HireDate DATE, Amount_of_money MONEY)
+AS
+BEGIN
+INSERT INTO @result (Barbers_name, Gender, Position, Email, Phone, BirthDate, HireDate, Amount_of_money)
+		SELECT b.FirstName + ' ' + b.LastName, b.Gender, p.[Name], b.Email, b.Phone, b.BirthDate, b.HireDate, SUM(s.Price)
+		FROM Barbers AS b JOIN Positions AS p ON p.Id = b.PositionId
+						  JOIN Bookings AS bo ON b.Id = bo.BarberId
+						  JOIN Services AS s ON s.Id = bo.ServiceId
+						  WHERE MONTH(bo.[Date]) = @month
+		GROUP BY b.FirstName + ' ' + b.LastName, b.Gender, p.[Name], b.Email, b.Phone, b.BirthDate, b.HireDate
+		HAVING SUM(s.Price) IN (SELECT TOP 3 SUM(s.Price)
+								FROM Barbers AS b JOIN Positions AS p ON p.Id = b.PositionId
+												  JOIN Bookings AS bo ON b.Id = bo.BarberId
+												  JOIN Services AS s ON s.Id = bo.ServiceId
+												  WHERE MONTH(bo.[Date]) = @month
+												  GROUP BY b.FirstName ORDER BY SUM(s.Price) DESC)
+RETURN;
+END;
+
+SELECT * FROM udf_GetREceivedMoneyByMonth (6)
+
+--- 17. Return the top 3 barbers of all time (by average). The number of customer visits is at least 5
+CREATE OR ALTER PROCEDURE sp_GetTop3BarbersByAvgMArk
+AS
+SELECT b.FirstName +  ' ' + b.LastName AS 'Barber name', b.Gender, p.[Name] AS 'Position', b.Phone, b.Email, b.BirthDate, b.HireDate, ROUND(AVG(CAST(m.Id AS FLOAT)), 2) AS 'Average mark'
+FROM Barbers AS b JOIN Positions AS p ON b.PositionId = p.Id
+				  JOIN Feedbacks AS f ON b.Id = f.BarberId
+				  JOIN Marks AS m ON m.Id = f.MarkId
+				  JOIN Bookings AS bo ON bo.BarberId = b.Id
+				  WHERE EXISTS (SELECT COUNT(bo.Id) FROM Barbers AS b JOIN Bookings AS bo ON bo.BarberId = b.Id GROUP BY b.Id HAVING COUNT(bo.Id) >= 5)
+GROUP BY b.Id, b.FirstName +  ' ' + b.LastName, b.Gender, p.[Name], b.Phone, b.Email, b.BirthDate, b.HireDate
+HAVING ROUND(AVG(CAST(m.Id AS FLOAT)), 2) IN (SELECT TOP 3 ROUND(AVG(CAST(m.Id AS FLOAT)), 2)
+											  FROM Barbers AS b JOIN Feedbacks AS f ON b.Id = f.BarberId
+															    JOIN Marks AS m ON m.Id = f.MarkId
+																GROUP BY b.FirstName ORDER BY ROUND(AVG(CAST(m.Id AS FLOAT)), 2) DESC)
+ORDER BY ROUND(AVG(CAST(m.Id AS FLOAT)), 2) DESC
+
+EXEC sp_GetTop3BarbersByAvgMArk
+
+--- 18. Show the schedule for a specific barber's day. Information about the barber and the day is passed as a parameter
+CREATE OR ALTER FUNCTION udf_GetBarberSchedule (@name VARCHAR(30), @date DATE)
+RETURNS @result TABLE (Barbers_name VARCHAR(30), [Date] DATE, Start_time VARCHAR(10), END_time VARCHAR(10))
+AS
+BEGIN
+INSERT INTO @result (Barbers_name, [Date], Start_time, End_time)
+	SELECT b.FirstName + ' ' + b.LastName AS 'Barbers name', s.[Date], FORMAT(cast(s.StartTime as time), N'hh\.mm') AS 'Start time', FORMAT(cast(s.EndTime as time), N'hh\.mm')  AS 'End time'
+	FROM Schedule As s JOIN Barbers AS b ON b.Id = s.BarberId
+	WHERE b.FirstName + ' ' + b.LastName = @name AND s.[Date] = @date
+RETURN;
+END;
+
+SELECT * FROM udf_GetBarberSchedule ('Chic Bruford', '2021-07-08')
+
+--- 19. Transfer to the archive information about all already completed services (these are those services that have occurred in the past)
+CREATE OR ALTER PROCEDURE sp_MoveComplitedServiceToArchive
+AS
+	DELETE  FROM ServicesArchive
+	INSERT INTO ServicesArchive (BarberName, [Service], ClientName, [Date], StartTime)
+	(SELECT bar.FirstName + ' ' + bar.LastName, s.[Name], c.FirstName + ' ' + c.LastName, b.[Date], FORMAT(cast(b.[Time] as time), N'hh\.mm')
+	FROM Bookings AS b JOIN Clients AS c ON c.Id = b.ClientId
+					   JOIN Barbers AS bar ON bar.Id = b.BarberId
+					   JOIN Services AS s ON s.Id = b.ServiceId
+	WHERE b.[Date] < GETDATE())
+
+EXEC sp_MoveComplitedServiceToArchive
+
+SELECT * FROM ServicesArchive
+
+--- 20. Deny registering a client with a barber for an already occupied time and date
+CREATE OR ALTER TRIGGER tg_DenyAddForBookedHour
+ON Bookings
+AFTER INSERT
+AS
+		DECLARE @date DATE, @start_time TIME, @end_time TIME, @barberId INT, @bookingId INT
+		SET @date = (SELECT i.[Date] FROM inserted AS i)
+		SET @start_time = (SELECT i.[Time] FROM inserted AS i)
+		SET @end_time = CAST(@start_time as DATETIME) + CAST((SELECT s.Duration FROM inserted AS i JOIN Services AS s ON i.ServiceId = s.Id) AS DATETIME)
+		SET @barberId = (SELECT i.BarberId FROM inserted AS i)
+		SET @bookingId = (SELECT i.Id FROM inserted AS i)
+
+		IF EXISTS (SELECT b.[Date], b.[Time], b.BarberId FROM Bookings AS b 
+				   WHERE b.Id <> @bookingId AND b.BarberId = @barberId AND b.[Date] = @date AND b.[Time] BETWEEN @start_time AND @end_time)
+		BEGIN
+			PRINT 'At this time the barber is busy!'
+			ROLLBACK
+		END;
+
+INSERT INTO Bookings(ClientId, BarberId, ServiceId, [Date], [Time])
+VALUES
+(1, 2, 5, '7/5/2021', '10:00')
+
+--- 21. Deny adding a new junior barber if 5 junior barbers are already working in the salon
+CREATE OR ALTER TRIGGER tg_DenyAddJuniorMoreThanFive
+ON Barbers
+AFTER INSERT
+AS
+		DECLARE @junior_count INT
+		SET @junior_count = (SELECT COUNT(p.Id) 
+							 FROM Barbers AS b JOIN Positions AS p ON b.PositionId = p.Id
+							 GROUP BY p.[Name]
+							 HAVING p.[Name] LIKE '%Jun%')
+		IF(@junior_count >= 5)
+		BEGIN
+		PRINT 'Deny to add Junior barber, if there are more than 5 Juniors!'
+			ROLLBACK
+		END;
+
+INSERT INTO Barbers(FirstName, LastName, Phone, Gender, Email, BirthDate, HireDate, PositionId)
+VALUES
+('Jordy', 'Frost', '178-146-2116', 'Male', 'eev0@google.com', '4/14/1990', '5/30/2020', 3),
+('Piter', 'Black', '451-404-3848', 'Male', 'cbrewse1@live.com', '12/6/2000', '3/12/2018', 3)
+
+SELECT * FROM Barbers
+
+--- 22. Return information about customers who have not provided any feedback or ratings
+CREATE OR ALTER PROCEDURE sp_GetClientsWithoutFeetback
+AS
+SELECT c.FirstName + ' ' + c.LastName AS 'Clients name', c.Phone, c.Email, f.[Text], m.[Name] AS 'Mark'
+	FROM Clients AS c JOIN Feedbacks AS f ON f.ClientId = c.Id
+					  JOIN Marks AS m ON f.MarkId = m.Id 
+	WHERE f.[Text] = NULL OR f.[Text] = '' AND m.[Name] = NULL
+
+EXEC sp_GetClientsWithoutFeetback
+
+--- 23. Return information about clients who have not visited the barbershop for over one year
+CREATE OR ALTER PROCEDURE sp_GetClientNotVistedMoreThanOneYear
+AS
+	SELECT c.FirstName + ' ' + c.LastName AS 'Clients name', c.Phone, c.Email
+	FROM Clients AS c JOIN Bookings As b ON b.ClientId = c.Id
+	GROUP BY c.FirstName + ' ' + c.LastName, c.Phone, c.Email
+	HAVING DATEDIFF(MONTH, MAX(b.[Date]), GETDATE()) > 12
+
+EXEC sp_GetClientNotVistedMoreThanOneYear
 
 
 
