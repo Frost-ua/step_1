@@ -1,0 +1,10 @@
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\Rectangle\bin\Debug\Rectangle.exe.config
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\Rectangle\bin\Debug\Rectangle.exe
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\Rectangle\bin\Debug\Rectangle.pdb
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\Rectangle\obj\Debug\MyForm.csprojAssemblyReference.cache
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\Rectangle\obj\Debug\MyForm.Form1.resources
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\Rectangle\obj\Debug\Rectangle.Properties.Resources.resources
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\Rectangle\obj\Debug\MyForm.csproj.GenerateResource.cache
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\Rectangle\obj\Debug\MyForm.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\Rectangle\obj\Debug\Rectangle.exe
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\Rectangle\obj\Debug\Rectangle.pdb

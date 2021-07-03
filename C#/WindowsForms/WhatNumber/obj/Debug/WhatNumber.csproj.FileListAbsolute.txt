@@ -1,0 +1,10 @@
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\WhatNumber\bin\Debug\WhatNumber.exe.config
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\WhatNumber\bin\Debug\WhatNumber.exe
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\WhatNumber\bin\Debug\WhatNumber.pdb
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\WhatNumber\obj\Debug\WhatNumber.csprojAssemblyReference.cache
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\WhatNumber\obj\Debug\WhatNumber.Form1.resources
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\WhatNumber\obj\Debug\WhatNumber.Properties.Resources.resources
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\WhatNumber\obj\Debug\WhatNumber.csproj.GenerateResource.cache
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\WhatNumber\obj\Debug\WhatNumber.csproj.CoreCompileInputs.cache
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\WhatNumber\obj\Debug\WhatNumber.exe
+D:\My_projects\C#\lessons\WinForms+ADO_net\WindowsFormsApp+ADO_net\WhatNumber\obj\Debug\WhatNumber.pdb
